@@ -1,2 +1,1 @@
-.. image:: curriculum_keyla.jpg
-  :align: center
+![Keyla Bullon](curriculum_keyla.jpg)
