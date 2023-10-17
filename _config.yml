@@ -6,17 +6,14 @@ baseurl: ''
 profilepic: '/images/photo.jpg'
 bkimage: '/images/cover.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+font_awesome: 'b834d8208f.js'
 
 author:
   name: 'Keyla Bullon'
   email: keylabullon@gmail.com'
-  mastodon: keylabullon@gmail.com
   twitter_username: keylabullon
-#  facebook_username: joshgerdes
-  github_username:  keylabullon.dev
+  github_username:  keylabullondev
   linkedin_username:  keylabullon
-  meetup_name: Azure-Meetup-Rostock-MV
   telegram.username: keylabullon
 
 # Build settings
@@ -35,4 +32,4 @@ kramdown:
   hard_wrap: false
 
 #plugins: ['jekyll-paginate']
-exclude: ['README.md', 'screenshot-overview.png']
+exclude: ['README.md']
