@@ -14,7 +14,7 @@ author:
   twitter_username: keylabullon
   github_username:  keylabullondev
   linkedin_username:  keylabullon
-  telegram.username: keylabullon
+  telegram: keylabullon
 
 # Build settings
 destination: _site
