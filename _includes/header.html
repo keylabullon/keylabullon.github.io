@@ -21,14 +21,13 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
-              <!-- https://mastodon.social/@tzuehlke@mstdn.social -->
               {% if site.author.twitter_username %}
               <!-- Mastodon -->
               <li class="navigation__item">
-                <a href="https://mastodon.social/@{{ site.author.mastodon }}"
-                  title="@{{ site.author.mastodon }} on Mastodon" target="_blank">
-                  <i class="fa-brands fa-mastodon"></i>
-                  <span class="label">Mastodon</span>
+                <a href="https://t.me/{{ site.author.telegram }}" title="@{{ site.author.telegram }} on telegram"
+                  target="_blank">
+                  <i class="fa-brands fa-telegram"></i>
+                  <span class="label">Telegram</span>
                 </a>
               </li>
               {% endif %}
@@ -41,18 +40,6 @@
                   <!--<i class="icon icon-social-twitter"></i>-->
                   <i class="fa-brands fa-twitter"></i>
                   <span class="label">Twitter</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.author.facebook_username %}
-              <!-- Facebook -->
-              <li class="navigation__item">
-                <a href="http://fb.me/{{ site.author.facebook_username }}"
-                  title="{{ site.author.facebook_username }} on Facebook" target="_blank">
-                  <!--<i class="icon icon-social-facebook"></i>-->
-                  <i class="fa-brands fa-facebook"></i>
-                  <span class="label">Facebook</span>
                 </a>
               </li>
               {% endif %}
@@ -77,18 +64,6 @@
                   <!--<i class="icon icon-social-github"></i>-->
                   <i class="fa-brands fa-github"></i>
                   <span class="label">GitHub</span>
-                </a>
-              </li>
-              {% endif %}
-
-              {% if site.author.meetup_name %}
-              <!-- Meetup -->
-              <li class="navigation__item">
-                <a href="https://www.meetup.com/{{ site.author.meetup_name }}"
-                  title="Meetup {{ site.author.meetup_name }}" target="_blank">
-                  <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
-                  <i class="fa-brands fa-meetup"></i>
-                  <span class="label">Meetup</span>
                 </a>
               </li>
               {% endif %}
