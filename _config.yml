@@ -1,1 +1,38 @@
-theme:algo
+# Site settings
+title: Keyla Bullon
+description: 'Business Card Page'
+url: 'keylabullon.github.io'
+baseurl: ''
+profilepic: '/images/photo.jpg'
+bkimage: '/images/cover.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
+
+author:
+  name: 'Keyla Bullon'
+  email: keylabullon@gmail.com'
+  mastodon: keylabullon@gmail.com
+  twitter_username: keylabullon
+#  facebook_username: joshgerdes
+  github_username:  keylabullon.dev
+  linkedin_username:  keylabullon
+  meetup_name: Azure-Meetup-Rostock-MV
+  telegram.username: keylabullon
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
