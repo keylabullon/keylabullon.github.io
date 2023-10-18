@@ -4,7 +4,7 @@ description: 'Business Card Page'
 url: 'keylabullon.github.io'
 baseurl: ''
 profilepic: '/images/photo.jpg'
-bkimage: '/images/cover.jpg'
+bkimage: '/images/background-cover.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'b834d8208f.js'
 
